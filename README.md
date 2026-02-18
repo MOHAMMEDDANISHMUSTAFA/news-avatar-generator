@@ -21,7 +21,7 @@ The result is a fully automated AI news‑generation pipeline designed for speed
 ## 🎥 Demo Video
 
 👉 Watch the demo here:  
-**[Google Drive / LinkedIn Video Link]**
+**Google Drive- (https://drive.google.com/drive/folders/1r6E06vWPUXAX4uOHVhg9NxQip383MXhv?usp=drive_link)**
 
 *(Replace this with your actual link)*
 
