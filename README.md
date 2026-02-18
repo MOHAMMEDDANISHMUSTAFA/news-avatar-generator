@@ -18,6 +18,44 @@ The result is a fully automated AI news‑generation pipeline designed for speed
 
 ---
 
+## 📰 News Scraping Details
+
+This project currently scrapes **three major global news sources**:
+
+- **BBC News**
+- **Reuters**
+- **Associated Press (AP News)**
+
+The scraper extracts:
+- Headlines  
+- Article summaries  
+- Publication timestamps  
+
+### 🌍 Multi‑Language Support  
+The system can generate news videos in **any language** supported by OpenAI + D‑ID, including:
+
+- English  
+- French  
+- Hindi  
+- Arabic  
+- Spanish  
+- German  
+- Danish  
+
+Just by adjusting the prompt.
+
+### 🔮 Future Extensions  
+The pipeline can easily be extended to support:
+
+- More news channels  
+- Category‑based news (sports, tech, finance)  
+- Regional news  
+- YouTube transcript scraping  
+- Scheduled daily news generation  
+- Multi‑avatar support  
+
+---
+
 ## 🎥 Demo Video
 
 👉 Watch the demo here:  
@@ -39,28 +77,20 @@ The result is a fully automated AI news‑generation pipeline designed for speed
 
 ## 🧩 Models Used & Cost Breakdown
 
-This project is optimized for **low cost** and **fast generation**.  
-Below is the exact breakdown of the models used and how much each step costs.
+This project is optimized for **low cost** and **fast generation**.
 
-### 🔹 **1. Summarization Model**
+### 🔹 1. Summarization Model  
 **Model:** `gpt-4o-mini`  
-**Usage:** Summarizes scraped news into a clean, short paragraph  
-**Cost:** ~$0.001–$0.003 per summary  
+**Cost:** ~$0.001–$0.003  
 **Latency:** ~1–2 seconds  
 
----
-
-### 🔹 **2. Script Generation Model**
+### 🔹 2. Script Generation Model  
 **Model:** `gpt-4o-mini`  
-**Usage:** Converts the summary into a natural news‑presenter script  
-**Cost:** ~$0.001–$0.003 per script  
+**Cost:** ~$0.001–$0.003  
 **Latency:** ~1–2 seconds  
 
----
-
-### 🔹 **3. Avatar Video Generation**
+### 🔹 3. Avatar Video Generation  
 **Service:** D‑ID API  
-**Usage:** Generates a talking‑avatar video using the script + audio  
 **Cost:** ~$0.05–$0.10 per 15 seconds  
 **Latency:** ~8–15 seconds  
 
@@ -87,8 +117,6 @@ Below is the exact breakdown of the models used and how much each step costs.
 | Script generation | ~$0.001–$0.003 |
 | D‑ID video generation | ~$0.05–$0.10 |
 | **Total cost per video** | **~$0.06–$0.12** |
-
-This makes the system extremely affordable for automated daily news content.
 
 ---
 
